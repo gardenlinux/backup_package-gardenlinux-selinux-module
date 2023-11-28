@@ -1,0 +1,66 @@
+gardenlinux-selinux-module (1.0.9) gardenlinux; urgency=medium
+
+  * Update general rule set for updated packages
+
+ -- Florian Paul Azim Hoberg <florian.hoberg@netapp.com>  Thu, 15 Nov 2023 13:53:12 +0000
+
+gardenlinux-selinux-module (1.0.8) gardenlinux; urgency=medium
+
+  * Enhance hyperscaler rules for Azure and GCP
+
+ -- Florian Paul Azim Hoberg <florian.hoberg@credativ.de>  Wed, 07 Sep 2022 19:04:54 +0000
+
+gardenlinux-selinux-module (1.0.7) gardenlinux; urgency=medium
+
+  * Add GCP hyperscaler related rules
+
+ -- Florian Paul Azim Hoberg <florian.hoberg@credativ.de>  Wed, 07 Sep 2022 08:33:12 +0000
+
+gardenlinux-selinux-module (1.0.6) gardenlinux; urgency=medium
+
+  * Add Azure hyperscaler related rules
+
+ -- Florian Paul Azim Hoberg <florian.hoberg@credativ.de>  Tue, 06 Sep 2022 15:01:39 +0000
+
+gardenlinux-selinux-module (1.0.5) gardenlinux; urgency=medium
+
+  * Add AWS hyperscaler related rules
+
+ -- Florian Paul Azim Hoberg <florian.hoberg@credativ.de>  Tue, 06 Sep 2022 12:02:14 +0000
+
+gardenlinux-selinux-module (1.0.4) gardenlinux; urgency=medium
+
+  * Add rules for Garden Linux feature: cis
+
+ -- Florian Paul Azim Hoberg <florian.hoberg@credativ.de>  Mon, 29 Aug 2022 14:12:53 +0000
+
+gardenlinux-selinux-module (1.0.3) gardenlinux; urgency=medium
+
+  * Refactor rules to fit selinux-policy-default
+
+ -- Florian Paul Azim Hoberg <florian.hoberg@credativ.de>  Tue, 23 Aug 2022 13:12:38 +0000
+
+gardenlinux-selinux-module (1.0.2) gardenlinux; urgency=medium
+
+  * Extend rules to fix denied messages after setting selinux to enforced
+
+ -- Christoph Senkel <christoph.senkel@credativ.de>  Fri, 10 Jun 2022 14:46:52 +0000
+
+gardenlinux-selinux-module (1.0.1) gardenlinux; urgency=medium
+
+  * Extend rule set to fix false positives for
+    - Metal
+    - GCP
+    - AWS
+    - AliCloud
+    - OpenStack
+    - VMware
+
+ -- Michael Sprengel <michael.sprengel@credativ.de>  Fri, 04 Mar 2022 15:55:45 +0000
+
+gardenlinux-selinux-module (1.0.0) gardenlinux; urgency=medium
+
+  [ Christoph Senkel ]
+  * Initial release
+
+ -- Christoph Senkel <christoph.senkel@credativ.de>  Fri, 18 Feb 2022 14:57:54 +0100
